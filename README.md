@@ -24,7 +24,7 @@ A versatile WhatsApp Bot that supports multiple sessions, allowing you to manage
 ### Deploy on VPS or PC (Example for Ubuntu)
 
  #### Quick Installation
-    bash <(curl -fsSL http://bit.ly/43JqREw)
+    bash <(curl -fsSL https://github.com/DarkNio88/levanter/raw/refs/heads/master/install.sh)
  #### Manual Installation
 
 1. **Install Git, ffmpeg, and curl:**
