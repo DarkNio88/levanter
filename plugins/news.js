@@ -50,9 +50,9 @@ bot(
       const { result } = scrapeData();
       const list = generateList(
         result.map(({ title, url, time }) => ({
-          "_id": "🆔 &id\n",
-          "text": `🗞${title}${time ? \n🕒${time} : ''}\n`,
-          "id": `news ${url}`,
+          _id: `🆔 &id\n`,
+          text: `🗞${title}${time ? `\n🕒${time}` : ''}\n`,
+          id: `news ${url}`,
         })),
         'Malayalam News',
         message.jid,
